@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".adminviewuser">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="292dp"
+        android:layout_height="87dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="581dp"
+        android:text="My Profile"
+        android:textColor="#1965E4"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView_show_name0"
+        android:layout_width="385dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="526dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="name"
+        android:inputType="textPersonName"
+        android:textColor="#090808"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText,TextViewEdits" />
+
+    <TextView
+        android:id="@+id/textView_show_mobileno0"
+        android:layout_width="395dp"
+        android:layout_height="55dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="408dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="Mobile no"
+        android:inputType="textPersonName"
+        android:textColor="#090808"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText,TextViewEdits" />
+
+    <TextView
+        android:id="@+id/textView_show_email0"
+        android:layout_width="397dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="472dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="#040303"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText,TextViewEdits" />
+
+    <TextView
+        android:id="@+id/textView_show_address0"
+        android:layout_width="386dp"
+        android:layout_height="53dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="343dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="Address"
+        android:inputType="textPersonName"
+        android:textColor="#090909"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText,TextViewEdits" />
+
+
+</RelativeLayout>

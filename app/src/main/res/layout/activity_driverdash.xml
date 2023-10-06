@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".driverdash">
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="245dp"
+        android:layout_height="71dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="471dp"
+        android:background="@drawable/backgroundimg"
+        android:text="ViewRoute and Work "
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="@null"
+        tools:ignore="HardcodedText,TextSizeCheck"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="182dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="141dp"
+        android:layout_height="117dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="263dp"
+        android:layout_marginBottom="446dp"
+        app:srcCompat="@drawable/route"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+
+</RelativeLayout>

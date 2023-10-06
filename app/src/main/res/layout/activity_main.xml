@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <Button
+        android:id="@+id/button"
+        android:layout_width="193dp"
+        android:layout_height="73dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="107dp"
+        android:layout_marginBottom="517dp"
+        android:background="@drawable/backgroundimg"
+        android:text="USER REGISTER"
+        android:textColor="#F8F3F3"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="@null"
+        app:rippleColor="#0B0A0A"
+
+        tools:ignore="HardcodedText,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="191dp"
+        android:layout_height="72dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="406dp"
+        android:background="@drawable/backgroundimg"
+        android:text="USER LOGIN"
+        android:textColor="#F4F3F3"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="@null"
+        app:rippleColor="#0B0A0A"
+        tools:ignore="HardcodedText,TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="143dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="2dp"
+        android:contentDescription="bin image"
+        app:srcCompat="@drawable/bin2"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="194dp"
+        android:layout_height="71dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="293dp"
+        android:background="@drawable/backgroundimg"
+        android:text="ADMIN LOGIN"
+        android:textColor="#F6F3F3"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="@null"
+        app:rippleColor="#0B0A0A"
+        tools:ignore="HardcodedText,TextSizeCheck,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="192dp"
+        android:layout_height="72dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="109dp"
+        android:layout_marginBottom="187dp"
+        android:background="@drawable/backgroundimg"
+        android:text="DRIVER LOGIN"
+        android:textColor="#F6F5F5"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="@null"
+        app:rippleColor="#0B0A0A"
+        tools:ignore="HardcodedText,TextContrastCheck,TextSizeCheck" />
+</RelativeLayout>

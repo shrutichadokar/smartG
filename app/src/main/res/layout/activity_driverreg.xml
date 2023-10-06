@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".driverreg">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="655dp"
+        android:text="Driver Registration"
+        android:textColor="#69DD53"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,TextSizeCheck,TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/Username1"
+        android:layout_width="388dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="583dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:textColorHint="#020202"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/Email1"
+        android:layout_width="397dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="505dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:textColorHint="#100F0F"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/MobileNumber1"
+        android:layout_width="395dp"
+        android:layout_height="55dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="429dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="Mobile no"
+        android:inputType="number"
+        android:textColorHint="#0B0A0A"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/Password1"
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="139dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textColorHint="#131212"
+        android:textSize="20sp"
+        tools:ignore="Autofill,HardcodedText,SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/Address1"
+        android:layout_width="381dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="366dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="Address"
+        android:inputType="text"
+        android:textColorHint="#100E0E"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/Adharno1"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="288dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="Aadhar no"
+        android:inputType="number"
+        android:textColorHint="#131111"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/Area1"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="206dp"
+        android:autofillHints=""
+        android:hint="Area"
+        android:inputType="text"
+        android:textColorHint="#050505"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="164dp"
+        android:layout_height="49dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="131dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/backgroundimg"
+        android:text="Submit"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="@null"
+        tools:ignore="HardcodedText,TextSizeCheck"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="182dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        android:layout_width="60dp"
+        android:layout_height="48dp"
+        android:layout_centerInParent="true"
+        android:elevation="10dp"
+        android:visibility="gone"/>
+
+</RelativeLayout>
